@@ -1,0 +1,559 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+}
+.container {
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  margin: 0 0 3rem;
+}
+#menu {
+  color: #49a6e9;
+  border: none;
+  background: none;
+}
+.menu,
+h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+.navbar {
+  margin: 0;
+}
+.nav-list {
+  display: none;
+  list-style: none;
+}
+.links {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: white;
+}
+.head-container {
+  color: white;
+  background: url(images/mobile/image-header.jpg);
+
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.container {
+  margin: 0 1.5rem;
+  text-align: center;
+}
+.head-text {
+  width: 90%;
+  margin: 0 auto;
+
+  /* padding-bottom: 40%; */
+}
+.arrow {
+  padding-top: 5%;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+}
+.color-green,
+.color-blue {
+  line-height: 1.5;
+}
+h2 {
+  margin-bottom: 0;
+}
+h3 {
+  font-weight: 700;
+}
+.arrow {
+  margin: 0;
+  font-size: 5rem;
+}
+.image {
+  width: 100%;
+}
+.text {
+  padding: 6rem 0;
+}
+.textcontain {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.texthead {
+  font-family: "Fraunces", serif;
+}
+.wrapper {
+}
+.words {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.position {
+  padding: 100% 1rem 10%;
+  text-align: center;
+}
+.head-blue {
+  font-family: "Fraunces", serif;
+  color: hsl(198, 62%, 26%);
+}
+.color-blue {
+  color: hsl(198, 43%, 43%);
+}
+.head-green {
+  font-family: "Fraunces", serif;
+  color: hsl(167, 40%, 24%);
+}
+.color-green {
+  color: hsl(167, 22%, 51%);
+}
+.learn-yellow,
+.learn-red {
+  font-family: "Fraunces", serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+.bar {
+  width: 30%;
+  border: 4px solid;
+  border-radius: 100px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 7px;
+  opacity: 35%;
+}
+.red {
+  color: hsl(7, 99%, 70%);
+}
+.yellow {
+  color: hsl(51, 100%, 49%);
+}
+.egg-mobile {
+  background: url(images/mobile/image-transform.jpg);
+  background-size: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.cup-mobile {
+  background: url(images/mobile/image-stand-out.jpg);
+  background-size: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.graphic {
+  background: url(images/mobile/image-graphic-design.jpg);
+  background-size: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.photo {
+  background: url(images/mobile/image-photography.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.testimonial {
+  text-align: center;
+  width: 85%;
+  padding: 12.5% 0;
+  margin: 0 auto;
+}
+.textim {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  color: hsl(232, 10%, 55%);
+}
+.card-image {
+  width: 25%;
+  border-radius: 100%;
+  margin: 15% 0 10%;
+}
+.card-text {
+  line-height: 2;
+  font-size: 1.2rem;
+  margin: 0 0 4rem;
+  color: hsl(213, 9%, 39%);
+}
+.card-name {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  color: hsl(212, 27%, 19%);
+}
+.card-role {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: hsl(210, 4%, 67%);
+}
+
+.first,
+.second {
+  display: flex;
+}
+
+.feature {
+  width: 50%;
+  height: 187px;
+}
+.featured-image {
+  width: 100%;
+}
+.featured-image-desktop {
+  display: none;
+}
+
+footer {
+  background-color: hsl(168, 34%, 63%);
+  padding: 3rem 0;
+  text-align: center;
+}
+.footer-text {
+  color: hsl(167, 40%, 24%);
+  font-weight: 900;
+}
+.footercenter {
+  width: 50%;
+  margin: 1rem auto;
+}
+.footerbar {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.footer-list {
+  list-style: none;
+  margin: 0.5rem 1.5rem;
+}
+.flinks {
+  font-size: 1rem;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
+}
+.social-links{
+  margin: 2rem 1rem;
+  color: hsl(167, 40%, 24%);
+  font-size: 1.5rem;
+}
+/* menu over */
+.menu-overlay {
+  /* display: none; */
+  width: 90%;
+  position: absolute;
+  top: 10%;
+  right: 1.5rem;
+  z-index: 1;
+}
+.triangle {
+ margin-left: 342.594px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+
+  border-bottom: 30px solid white;
+}
+.menu-body {
+  background-color: white;
+  border: .25px solid white;
+  padding: 1rem 0 2rem;
+  margin: 0 auto;
+}
+.menu-body ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.menu-body ul li {
+  margin: 2rem 0;
+}
+.menu-links {
+  text-decoration: none;
+  color: hsl(232, 10%, 55%);
+}
+.special2 {
+  background-color: hsl(51, 100%, 49%);
+  color: black;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 30px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  body {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .head-container {
+    background: url(images/desktop/image-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+  }
+  .navbar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    margin: 0 1rem;
+  }
+  .menu {
+    display: none;
+  }
+  .special {
+    color: black;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+  }
+  .arrow {
+    position: relative;
+
+    top: 60px;
+
+    margin: 0;
+    font-size: 5rem;
+  }
+  .head-text {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .text {
+    background-color: white;
+    width: 50%;
+    padding: 0;
+    order: 1;
+  }
+  .textcontain {
+    width: 60%;
+    margin: 8rem auto;
+    text-align: left;
+  }
+  .texthead {
+    font-size: 1.5rem;
+  }
+  .words {
+    color: #707070;
+    font-size: 0.75rem;
+  }
+  .bar {
+    margin: 0;
+    width: 32%;
+  }
+  .testimonial {
+    width: 90%;
+  }
+  .wrapper-contain {
+    font-size: 0.875rem;
+  }
+  .test-container {
+    display: flex;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 0 1rem;
+  }
+  .card-image {
+    width: 75px;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  .card-text {
+    font-size: 0.855rem;
+  }
+
+  .egg,
+  .cup,
+  .graphic,
+  .photo {
+    height: auto;
+    width: 50%;
+  }
+  .egg {
+    background-repeat: no-repeat;
+    background: url(images/desktop/image-transform.jpg);
+    background-size: 100%;
+    order: 2;
+  }
+  .cup {
+    background: url(images/desktop/image-stand-out.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .graphic {
+    background: url(images/desktop/image-graphic-design.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .photo {
+    background: url(images/desktop/image-photography.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .position {
+    padding: 50% 20% 4.5%;
+  }
+  #section5 {
+    display: flex;
+    height: 317px;
+  }
+  .featured-image {
+    display: none;
+  }
+  .feature {
+    width: 50%;
+  }
+  .featured-image-desktop {
+    display: block;
+    width: 100%;
+  }
+  .menu-overlay {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .head-container {
+    background: url(images/desktop/image-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  .navbar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    margin: 0 1rem;
+  }
+  .menu {
+    display: none;
+  }
+  .special {
+    color: black;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+  }
+  .arrow {
+    position: relative;
+
+    top: 60px;
+
+    margin: 0;
+    font-size: 5rem;
+  }
+  .head-text {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .text {
+    background-color: white;
+    width: 50%;
+    padding: 0;
+    order: 1;
+  }
+  .textcontain {
+    width: 60%;
+    margin: 9rem auto;
+    text-align: left;
+  }
+  .texthead {
+    font-size: 2rem;
+  }
+  .words {
+    color: #707070;
+    font-size: 1rem;
+  }
+  .bar {
+    margin: 0;
+    width: 25%;
+  }
+  .test-container {
+    display: flex;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 0 1rem;
+  }
+  .card-image {
+    width: 75px;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  .card-text {
+    font-size: 0.855rem;
+  }
+
+  .egg,
+  .cup,
+  .graphic,
+  .photo {
+    height: auto;
+    width: 50%;
+  }
+  .egg {
+    background-repeat: no-repeat;
+    background: url(images/desktop/image-transform.jpg);
+    background-size: 100%;
+    order: 2;
+  }
+  .cup {
+    background: url(images/desktop/image-stand-out.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .graphic {
+    background: url(images/desktop/image-graphic-design.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .photo {
+    background: url(images/desktop/image-photography.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .position {
+    padding: 50% 20% 4.5%;
+  }
+  #section5 {
+    display: flex;
+    height: 390px;
+  }
+  .featured-image {
+    display: none;
+  }
+  .feature {
+    width: 50%;
+  }
+  .featured-image-desktop {
+    display: block;
+    width: 100%;
+  }
+  .menu-overlay {
+    display: none;
+  }
+}

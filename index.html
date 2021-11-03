@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet" />
+  <!--    Font Awesome-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <section id="hero" class="head-container">
+    <div class="container">
+      <nav>
+        <h3>sunnyside</h3>
+
+        <ul class="navbar">
+          <li class="nav-list"><a class="links" href="#">About</a></li>
+          <li class="nav-list"><a class="links" href="#">Services</a></li>
+          <li class="nav-list"><a class="links" href="#">Projects</a></li>
+          <li class="nav-list">
+            <a class="links special" href="#">Contact</a>
+          </li>
+          <span class="menu" onclick="openNav()">&#9776;</span>
+        </ul>
+      </nav>
+      <div class="head-text">
+        <h1>We are creatives</h1>
+
+      </div>
+      <i class="arrow fas fa-long-arrow-alt-down fa-8x"></i>
+    </div>
+  </section>
+  <section class="2-section">
+    <div class="wrapper">
+      <div class="egg egg-mobile"></div>
+      <div class="text">
+        <div class="textcontain">
+          <h3 class="texthead">Transform your brand</h3>
+          <p class="words">
+            We are a full-service creative agency specializing in helping
+            brands grow fast. Engage your clients through compelling visuals
+            that do most of the marketing for you.
+          </p>
+          <a class="learn-yellow" href="#">Learn more</a>
+          <hr class="yellow bar">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section3">
+    <div class="wrapper">
+      <div class="cup cup-mobile"></div>
+      <div class="text">
+        <div class="textcontain">
+          <h3 class="texthead">Stand out to the right audience</h3>
+          <p class="words">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="learn-red" href="#">Learn more</a>
+          <hr class="red bar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sectin4">
+    <div class="wrapper">
+      <div class="graphic">
+        <div class="position">
+          <h2 class="head-green">Graphic design</h2>
+          <p class="color-green wrapper-contain">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+      </div>
+
+      <div class="photo">
+        <div class="position">
+          <h2 class="head-blue">Photography</h2>
+          <p class="color-blue wrapper-contain">
+            Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section4">
+    <div class="testimonial">
+      <h2 class="textim">
+        Client testimonials
+      </h2>
+      <div class="test-container">
+        <div class="card">
+          <img class="card-image" src="images/image-emily.jpg" alt="">
+          <p class="card-text">We put our trust in Sunnyside and they delivered, making
+            sure our needs were met and deadlines were always hit.</p>
+          <h3 class="card-name">Emily R.</h3>
+          <h5 class="card-role">Marketing Director</h5>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/image-thomas.jpg" alt="">
+          <p class="card-text">Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.</p>
+          <h3 class="card-name">Thomas S.</h3>
+          <h5 class="card-role">Chief Operating Officer</h5>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/image-jennie.jpg" alt="">
+          <p class="card-text">Incredible end result! Our sales increased over 400%
+            when we worked with Sunnyside. Highly recommended!</p>
+          <h3 class="card-name">Jennie F.</h3>
+          <h5 class="card-role">Business Owner</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section5">
+    <div class="first">
+      <div class="milk feature">
+        <img class="featured-image" src="images/mobile/image-gallery-milkbottles.jpg" alt="milk">
+        <img class="featured-image-desktop" src="images/desktop/image-gallery-milkbottles.jpg" alt="milk">
+      </div>
+      <div class="orange feature">
+        <img class="featured-image" src="images/mobile/image-gallery-orange.jpg" alt="orange">
+        <img class="featured-image-desktop" src="images/desktop/image-gallery-orange.jpg" alt="milk">
+      </div>
+    </div>
+    <div class="second">
+      <div class="cone feature">
+        <img class="featured-image" src="images/mobile/image-gallery-cone.jpg" alt="cone">
+        <img class="featured-image-desktop" src="images/desktop/image-gallery-cone.jpg" alt="milk">
+      </div>
+      <div class="sugar feature">
+        <img class="featured-image" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar">
+        <img class="featured-image-desktop" src="images/desktop/image-gallery-sugarcubes.jpg" alt="milk">
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footercenter">
+      <h3 class="footer-text">sunnyside</h3>
+
+      <ul class="footerbar">
+        <li class="footer-list"><a class="flinks" href="#">About</a></li>
+        <li class="footer-list"><a class="flinks" href="#">Services</a></li>
+        <li class="footer-list"><a class="flinks" href="#">Projects</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <i class="social-links fab fa-facebook-square "></i>
+      <i class="social-links fab fa-instagram "></i>
+      <i class="social-links fab fa-twitter "></i>
+      <i class="social-links fab fa-pinterest"></i>
+
+    </div>
+  </footer>
+
+  <div class="menu-overlay">
+    <div class="triangle"></div>
+    <div class="menu-body">
+      <ul>
+        <li><a class="menu-links" href="#">About</a></li>
+        <li><a class="menu-links" href="">Services</a></li>
+        <li><a class="menu-links" href="">Projects</a></li>
+        <li><a class=" menu-links special2" href="">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script>
+    function loop() {
+      $('.arrow')
+        .animate({ fontSize: 120 })
+        .animate({ fontSize: 144 }, loop)
+    }
+    loop()
+    $('.menu-overlay').hide()
+    $('.menu').click(function () {
+      $('.menu-overlay').fadeToggle()
+    })
+  </script>
+</body>
+
+</html>
